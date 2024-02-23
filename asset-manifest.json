@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-subreddit/static/css/main.a8d54f8d.css",
+    "main.js": "/React-subreddit/static/js/main.ae35606e.js",
+    "static/js/453.7567000e.chunk.js": "/React-subreddit/static/js/453.7567000e.chunk.js",
+    "index.html": "/React-subreddit/index.html",
+    "main.a8d54f8d.css.map": "/React-subreddit/static/css/main.a8d54f8d.css.map",
+    "main.ae35606e.js.map": "/React-subreddit/static/js/main.ae35606e.js.map",
+    "453.7567000e.chunk.js.map": "/React-subreddit/static/js/453.7567000e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8d54f8d.css",
+    "static/js/main.ae35606e.js"
+  ]
+}
