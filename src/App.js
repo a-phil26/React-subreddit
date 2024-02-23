@@ -1,4 +1,9 @@
-
+//File:         app.js
+//Project:      Web - Frontend
+//Programmer:   Addison Phillips
+//Date:         Feb 22, 2024
+//Description:  main page for the app. sets up the access token for the api and has logic to get data from a search string.
+//              also contains the logic for conditionally rendering the search results vs the fav list. 
 import { useState, useEffect, Suspense  } from 'react';
 import './App.css';
 import PostList from './postList'

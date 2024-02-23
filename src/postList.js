@@ -1,6 +1,12 @@
+//File:         postList.js
+//Project:      Web - Frontend
+//Programmer:   Addison Phillips
+//Date:         Feb 22, 2024
+//Description:  this file contains the mapping function to make a list of components.
+
 import React from 'react'
 import PostItem from './postItem'
-import { useState} from 'react'
+
 
 export default function PostList({list, setFlag, viewMode}) {
 

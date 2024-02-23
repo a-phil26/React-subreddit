@@ -1,3 +1,8 @@
+//File:         search.js
+//Project:      Web - Frontend
+//Programmer:   Addison Phillips
+//Date:         Feb 22, 2024
+//Description:  search component used to enter a subreddit and pass that string back to app.js to collect the data.
 import React, { useState } from 'react'
 
 export default function Search({setString}) {

@@ -1,3 +1,9 @@
+//File:         favourites.js
+//Project:      Web - Frontend
+//Programmer:   Addison Phillips
+//Date:         Feb 22, 2024
+//Description:  this file contains the favourit component that gets all the IDs from local storage and then gets 
+//              their data from the api. 
 
 import PostList from './postList'
 import  { React, useState, useEffect } from 'react';
