@@ -7,10 +7,13 @@
 import {React } from 'react'
 
 export default function PostItem({title, score, url, id, setFlag, viewMode}) {
+  //add id to local storage
   const handleAddToFavorites = () => {
     localStorage.setItem(id,id);
 
   };
+
+  //remove the id from local storage
   function handleRemoveFromFavorites (){
     localStorage.removeItem(id,id);
     setFlag(true);

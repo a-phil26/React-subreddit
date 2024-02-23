@@ -14,6 +14,7 @@ export default function Favourites({accessToken, viewMode}) {
   const [favData, setFavData] = useState("");
   const [flag, setFlag] = useState(false);  
 
+  //get all ids from local storage to query api
   useEffect(() =>{
     const getAllItemsFromLocalStorage = () => {
       setFlag(false);
@@ -31,6 +32,7 @@ export default function Favourites({accessToken, viewMode}) {
   }, [flag]
 ) 
 
+//query the api for all data related to each post ID
 useEffect(() => {
   const GetPosts = async () => {
     if (favoriteList.length === 0) {

@@ -28,6 +28,7 @@ function App() {
 
   const [viewMode, setViewMode] = useState('search')
  
+  //set up access token for the session
   useEffect(() => {
     const fetchData = async () => {
       localStorage.clear();
@@ -59,6 +60,7 @@ function App() {
     fetchData();
   }, [basicAuth, endpoint, username, password]);
 
+  //get the list of top 10 posts from searched subreddit
   useEffect(() => {
   const GetSubReddit = async () => {
     let authorizeEndpoint = `https://oauth.reddit.com/r/${searchString}/hot?limit=10`;
